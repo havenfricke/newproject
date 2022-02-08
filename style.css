@@ -1,0 +1,93 @@
+
+
+.main-font{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.translate1{
+  transform: translateY(25%);
+}
+
+.opener-move-left{
+  transform: translateX(-25%);
+}
+
+
+
+.media4{
+  transform: translateX(15%);
+}
+
+.card1{
+  min-height: 33vh;
+}
+
+  
+
+.bg-header{
+  background-image: url('https://images-na.ssl-images-amazon.com/images/S/pv-target-images/593285e169754e128ee9772b0b3459c4b4078152c2842f3a5d222da0efad481b._RI_.jpg');
+  background-size: cover;
+}
+
+.bg-middle{
+  background-image: url('https://wallpapercave.com/wp/wp2801544.jpg');
+  background-size: cover;
+}
+
+.main-background{
+  background-image: url('https://images6.alphacoders.com/884/thumb-1920-884393.jpg');
+}
+
+@supports (display: flex) {
+  @media screen and (max-width:768px) {
+    .media1 {
+      display: none;
+   }
+  }
+} 
+
+@supports (display: flex) {
+  @media screen and (max-width:768px) {
+    .media2 {
+      width: 90vw;
+      transform: translateY(-25%);
+   }
+  }
+} 
+
+@supports (display: flex) {
+  @media screen and (max-width:768px) {
+    .media3 {
+      transform: translateY(15%);
+   }
+  }
+} 
+
+
+@supports (display: flex) {
+  @media screen and (max-width:768px) {
+    .card2 {
+      transform: translateX(0%);
+      margin-top: 2vh;
+   }
+  }
+} 
+
+@supports (display: flex) {
+  @media screen and (max-width:768px) {
+    .card1 {
+      transform: translateX(0%);
+      margin-top: 2vh;
+   }
+  }
+} 
+
+@supports (display: flex) {
+  @media screen and (max-width:768px) {
+    .card3 {
+      transform: translateX(0%);
+      margin-top: 2vh;
+   }
+  }
+} 
+
