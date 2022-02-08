@@ -12,8 +12,6 @@
   transform: translateX(-25%);
 }
 
-
-
 .media4{
   transform: translateX(15%);
 }
@@ -46,10 +44,11 @@
   }
 } 
 
+
 @supports (display: flex) {
   @media screen and (max-width:768px) {
     .media2 {
-      width: 90vw;
+      width: 96vw;
       transform: translateY(-25%);
    }
   }
@@ -58,7 +57,7 @@
 @supports (display: flex) {
   @media screen and (max-width:768px) {
     .media3 {
-      transform: translateY(15%);
+      transform: translateY(-5%);
    }
   }
 } 
@@ -87,6 +86,14 @@
     .card3 {
       transform: translateX(0%);
       margin-top: 2vh;
+   }
+  }
+} 
+
+@supports (display: flex) {
+  @media screen and (max-width:577px) {
+    .stay {
+      order: 5;
    }
   }
 } 
