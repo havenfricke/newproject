@@ -48,7 +48,7 @@
 @supports (display: flex) {
   @media screen and (max-width:768px) {
     .media2 {
-      width: 96vw;
+      width: 94.5vw;
       transform: translateY(-25%);
    }
   }
